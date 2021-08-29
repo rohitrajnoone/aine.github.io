@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        
+.border-1{
+  
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 120px;
+}
+.border-2{
+    margin-top: 0%;
+    width: 10%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.video{
+    font-size: 28px;
+    margin-left: 12%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(134, 134, 158);
+}
+#url-1{
+    margin-left: 20%;
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(121, 120, 120, 0.19);
+  border-radius: 4px;
+  font-size: large;
+  color: black;
+}
+.box-3{
+    margin-left: 20%;
+    padding: 70px 0px;
+    text-align: center;
+    width: 15%;
+   
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(121, 120, 120, 0.19);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
+.img1{
+    width: 100%;
+    height: 90px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(121, 120, 120, 0.19);
+}
+.img1:hover {
+  background-color: rgb(0, 0, 0);
+  transform: scale(1);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+    </style>
+</head>
+<body>
+    <div class="border-1"> 
+        <div class="border-2"> <img class="img1" src="1.jpeg" alt="">
+        <img class="img1" src="2.jpeg" alt="">
+        <img class="img1" src="3.jpeg" alt="">
+        <img class="img1" src="4.jpeg" alt="">
+        </div>
+    </div>
+    <div>
+    <h3 class="video"> &#11164 Video</h3>
+</div>
+     <input type="text" name="" placeholder="Insert Url Here" id="url-1">
+     <br>
+     <br>
+     <h2 style="margin-left: 50%;">or</h2>
+     <br>
+     <br>
+     <div class="box-3"><h2>Upload</h2>  </div>
+</body>
+</html>
